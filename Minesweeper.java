@@ -40,6 +40,7 @@ public class Minesweeper {
 
     Minesweeper() {
         frame.setSize(boardWidth, boardHeight);
+        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);        
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
